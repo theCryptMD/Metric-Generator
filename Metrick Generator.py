@@ -17,7 +17,7 @@ import vertexai.preview.generative_models as generative_models
 
 
 def generate():
-  vertexai.init(project="<your-project-id>", location="<your-google-server-location>")
+  vertexai.init(project="<your-project-id>", location="<your-project-server-location>")
   model = GenerativeModel(
     "gemini-1.5-flash-001",
   )
